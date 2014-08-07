@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ZSSRichTextEditor"
-  s.version      = "0.2"
+  s.version      = "0.3"
   s.summary      = "ZSSRichTextEditor is a beautiful Rich Text WYSIWYG Editor for iOS."
 
   s.description  = <<-DESC
@@ -25,11 +25,10 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "7.0"
 
-  s.source       = { :git => "https://github.com/otelic/ZSSRichTextEditor.git", :tag => "0.1" }
+  s.source       = { :git => "https://github.com/otelic/ZSSRichTextEditor.git", :tag => "0.3" }
 
   s.source_files  = "**/*.{h,m}"
   s.exclude_files = "**/ZSSDemo*.{h,m}", "**/ZSSAppDelegate*.{h,m}", "**/main.m"
-  s.public_header_files = "**/ZSS*.h"
   s.resources = "**/ZSS*.png", "**/ZSSRichTextEditor.js", "**/editor.html"
 
   s.frameworks = "CoreGraphics", "CoreText"
